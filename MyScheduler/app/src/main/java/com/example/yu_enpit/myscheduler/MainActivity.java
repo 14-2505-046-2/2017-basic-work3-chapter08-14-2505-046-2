@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                         ScheduleEditActivity.class));
             }
         });
+
         mRealm = Realm.getDefaultInstance();
 
         mListView = (ListView) findViewById(R.id.listView);
